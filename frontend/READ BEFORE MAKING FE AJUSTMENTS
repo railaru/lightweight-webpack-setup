@@ -1,0 +1,13 @@
+place all your js files in src/js and import them to main.js
+
+place all your stylesheets to src/css/ and import them to main.scss
+
+you only need one js import and one css import to the index file like in this example,
+DO not add 10 different files to create a dependency hell
+
+you can add 3rd party dependencies by following the example of how jQuery
+is added in webpack.config.js
+
+* run npm run build for static front end development
+
+* run npm build:prod for production environment and backend integration
